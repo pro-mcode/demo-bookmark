@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bookmark</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/output.css" />
     <link rel="stylesheet" href="input.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -564,9 +569,29 @@
       <!-- Footer -->
       <footer class="bg-extra py-16 w-full mx-auto">
         <div
-          class="w-[90%] flex justify-between items-start mx-auto space-x-8 md:hidden"
+          class="w-[90%] flex justify-between items-start space-x-8 mx-auto md:hidden"
         >
-          <div class="wrapper">
+          <div class="flex flex-col justify-start space-y-4">
+            <h3 class="text-white text-base text-left font-medium uppercase">
+              Quick links
+            </h3>
+            <a
+              href="#feature"
+              class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
+              >Features</a
+            >
+            <a
+              href="#download"
+              class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
+              >Download</a
+            >
+            <a
+              href="#faq"
+              class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
+              >Faq</a
+            >
+          </div>
+          <div class="flex flex-col space-y-4">
             <a href="#hero">
               <img
                 src="/assets/images/logo-bookmark-footer.svg"
@@ -574,26 +599,8 @@
                 class=""
               />
             </a>
-            <div class="flex flex-col justify-start space-y-4 mt-4">
-              <a
-                href="#feature"
-                class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
-                >Features</a
-              >
-              <a
-                href="#download"
-                class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
-                >Download</a
-              >
-              <a
-                href="#faq"
-                class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
-                >Faq</a
-              >
-            </div>
-          </div>
-          <div class="wrapper">
-            <div class="flex justify-end items-center space-x-4">
+
+            <div class="flex justify-start items-center space-x-4">
               <img
                 src="/assets/images/icon-twitter.svg"
                 alt=""
@@ -610,7 +617,7 @@
                 class="ficon bg-icon"
               />
             </div>
-            <div class="text-white text-xs mt-4">
+            <div class="text-white text-xs">
               <a href="#">
                 <i class="fas fa-code"></i> by
                 <strong class="font-adm uppercase">AD-M INNOVATIONS</strong>
