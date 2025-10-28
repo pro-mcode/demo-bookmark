@@ -5,6 +5,14 @@
   h1 {
     @apply text-black text-2xl capitalize font-semibold text-center w-[90%] md:w-1/2 mx-auto lg:text-left lg:text-6xl lg:mx-0 lg:w-3/4 xl:w-1/2;
   }
+  input:-webkit-autofill,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: currentColor !important;
+    transition: background-color 5000s ease-in-out 0s;
+    caret-color: currentColor;
+  }
 }
 .nav {
   @apply max-w-[90%] relative py-12 lg:px-0 mx-auto lg:w-[80%];

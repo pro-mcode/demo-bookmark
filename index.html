@@ -555,7 +555,7 @@
           >
             <input
               type="text"
-              class="text-gray-500 outline-none bg-white px-6 py-3 rounded md:bg-transparent md:text-white placeholder:text-sm placeholder:font-medium"
+              class="text-gray-500 outline-none text-base bg-white px-6 py-3 rounded md:bg-transparent md:text-white placeholder:text-base placeholder:font-medium"
               placeholder="Enter your e-mail address"
             />
             <button
@@ -569,12 +569,21 @@
       <!-- Footer -->
       <footer class="bg-extra py-16 w-full mx-auto">
         <div
-          class="w-[90%] flex justify-between items-start space-x-8 mx-auto md:hidden"
+          class="w-[90%] flex justify-between items-start space-x-4 mx-auto lg:max-w-[80%]"
         >
-          <div class="flex flex-col justify-start space-y-4">
-            <h3 class="text-white text-base text-left font-medium uppercase">
+          <div
+            class="flex flex-col justify-start space-y-3 md:flex-row md:space-y-0 md:space-x-4"
+          >
+            <a href="#hero">
+              <img
+                src="/assets/images/logo-bookmark-footer.svg"
+                alt=""
+                class=""
+              />
+            </a>
+            <!-- <h3 class="text-white text-base text-left font-medium uppercase">
               Quick links
-            </h3>
+            </h3> -->
             <a
               href="#feature"
               class="text-gray-400 text-base text-left font-medium uppercase hover:text-secondary"
@@ -591,16 +600,8 @@
               >Faq</a
             >
           </div>
-          <div class="flex flex-col space-y-4">
-            <a href="#hero">
-              <img
-                src="/assets/images/logo-bookmark-footer.svg"
-                alt=""
-                class=""
-              />
-            </a>
-
-            <div class="flex justify-start items-center space-x-4">
+          <div class="flex flex-col space-y-3">
+            <div class="flex justify-end items-center space-x-4">
               <img
                 src="/assets/images/icon-twitter.svg"
                 alt=""
@@ -620,66 +621,10 @@
             <div class="text-white text-xs">
               <a href="#">
                 <i class="fas fa-code"></i> by
-                <strong class="font-adm uppercase">AD-M INNOVATIONS</strong>
+                <strong class="uppercase text-[10px]">AD-M INNOVATIONS</strong>
               </a>
             </div>
           </div>
-        </div>
-        <div
-          class="w-[90%] hidden md:flex md:justify-between md:items-center mx-auto md:flex-row md:space-x-8 lg:max-w-[80%]"
-        >
-          <div
-            class="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-8"
-          >
-            <a href="#hero">
-              <img
-                src="/assets/images/logo-bookmark-footer.svg"
-                alt=""
-                class=""
-              />
-            </a>
-
-            <a
-              href="#feature"
-              class="text-gray-400 text-base font-medium uppercase hover:text-secondary"
-              >Features</a
-            >
-            <a
-              href="#download"
-              class="text-gray-400 text-base font-medium uppercase hover:text-secondary"
-              >Download</a
-            >
-            <a
-              href="#faq"
-              class="text-gray-400 text-base font-medium uppercase hover:text-secondary"
-              >Faq</a
-            >
-          </div>
-          <div class="flex justify-center items-center mx-auto space-x-4">
-            <img
-              src="/assets/images/icon-twitter.svg"
-              alt=""
-              class="ficon bg-icon"
-            />
-            <img
-              src="/assets/images/icon-instagram.svg"
-              alt=""
-              class="ficon bg-icon"
-            />
-            <img
-              src="/assets/images/icon-facebook.svg"
-              alt=""
-              class="ficon bg-icon"
-            />
-          </div>
-        </div>
-        <div
-          class="w-[90%] hidden md:flex justify-end mx-auto text-white text-xs lg:max-w-[80%] lg:mx-auto mt-6"
-        >
-          <a href="#">
-            <i class="fas fa-code"></i> by
-            <strong class="font-adm uppercase">AD-M INNOVATIONS</strong>
-          </a>
         </div>
       </footer>
     </div>
